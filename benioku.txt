@@ -4,5 +4,11 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
-27-02-2016 v0.9.0
+06-03-2016 v1.2.0-b1a
+- Dil paketi sürüm numarası güncellendi.
+- language/tr/acp/board.php dosyasında bir kaç çeviri hatası düzeltildi. (metotu -> metodu :: uzantı -> eklenti)
+- Bazı dosyalardaki çevirilerin aralarında bulunan tırnak işareti karakterleri UTF-8'e göre güncellendi. 
+(language/tr/acp: board.php, common.php, posting.php, profile.php, search.php, users.php; language/tr/: groups.php, help_bbcode.php, help_faq.php, ucp.php)
+
+27-02-2016 v1.2.0-b1
 - Dil dosyaları phpBB 3.2.0-b1 sürümü için yayınlandı.
