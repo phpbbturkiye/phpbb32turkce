@@ -534,6 +534,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Eğer bu ayar etkinleştirilirse, POST isteklerinin yapıldığı yönlendiriciler (referrer) (diğer web sitelerinden gelen istekler) host/script yolu (path) ayarlarına karşı kontrol edilecektir. Bu işlem bir kaç farklı alan adı ve / veya harici girişler kullanan mesaj panoları için sorunlara neden olabilir.',
 	'TPL_ALLOW_PHP'					=> 'Şablonlarda php’ye izin ver',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Eğer bu özellik açılırsa, <code>PHP</code> ve <code>INCLUDEPHP</code> ifadeleri tanınacak ve tema şablonlarının içerisine işlenecektir.',
+	'UPLOAD_CERT_VALID'				=> 'Yükleme sertifikasını doğrula',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Eğer bu özellik açılırsa, uzaktan yüklemelerin sertifikası doğrulanmış olacaktır. Bunun için php.ini dosyanız içerisindeki <samp>openssl.cafile</samp> ya da <samp>curl.cainfo</samp> ayarı ile tanımlanmış CA bundle paketi gereklidir.',	
 ));
 
 // Email Settings

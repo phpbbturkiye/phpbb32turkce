@@ -119,7 +119,9 @@ $lang = array_merge($lang, array(
 // General error messages
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Bu bölümdeki tüm alanları doldurmalısınız.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB zaten kurulu.'
+
+	'TIMEOUT_DETECTED_TITLE'	=> 'Kurulumcu bir zaman aşımı tespi etti',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Kurulumcu bir zaman aşımı tespit etti. Sayfayı yenileyebilirsiniz, ancak bu işlem veri bozulmasına yol açabilir. Zaman aşımı ayarlarınızı artırmanızı ya da Komut Satırı Arabirimi (CLI) kullanmayı denemenizi öneririz.',
 ));
 
 // Data obtaining translations
@@ -199,6 +201,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Kurulu olan SQLite eklentisinin sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Bu makinede kurulu olan Oracle’nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>’e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Seçtiğiniz veritabanı <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde oluşturulamadı. <var>UNICODE</var> veya <var>UTF8</var> kodlaması ile oluşturulmuş bir veritabanı ile kurmayı deneyin.',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Şema dosyası yazılabilir değil',	
 
 	//
 	// Email data
@@ -274,9 +277,11 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE'	=> 'Yapılandırma dosyası oluşturuluyor',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'		=> 'Yapılandırma ayarları ekleniyor',
-	'TASK_ADD_DEFAULT_DATA'			=> 'Varsayılan ayarlar veritabanına ekleniyor',
-	'TASK_CREATE_DATABASE_SCHEMA'	=> 'Veritabanı şeması oluşturuluyor',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'Yapılandırma ayarları ekleniyor',
+	'TASK_ADD_DEFAULT_DATA'				=> 'Varsayılan ayarlar veritabanına ekleniyor',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Veritabanı şeması oluşturuluyor',
+	'TASK_SETUP_DATABASE'				=> 'Veritabanı ayarlanıyor',
+	'TASK_CREATE_TABLES'				=> 'Tablolar oluşturuluyor',
 
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Botlar kaydediliyor',
@@ -302,7 +307,7 @@ $lang = array_merge($lang, array(
 	'SKIP_MODULE'	=> '“%s” modulünü atla',
 	'SKIP_TASK'		=> '“%s” görevini atla',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Tüm kurulumcu görev servisleri “kurulumcu” ile başlamalıdır',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Tüm kurulumcu görev servisleri “installer” ile başlamalıdır',
 	'TASK_CLASS_NOT_FOUND'				=> 'Kurulumcu görev servisi tanımı geçersiz. Servis adı “%1$s” olarak verildi, bunun için beklenen sınıf alan adı “%2$s” dir. Daha fazla bilgi için lütfen task_interface dokümanına bakın.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Kurulumcu yapılandırma dosyası yazılabilir değil.',
@@ -310,13 +315,15 @@ $lang = array_merge($lang, array(
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'phpBB Kurulumu',
+	'CLI_INSTALL_BOARD'				=> 'phpBB’yi kur',
+	'CLI_UPDATE_BOARD'				=> 'phpBB’yi güncelle',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Kullanılacak yapılandırmayı göster',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Bir yapılandırma dosyasını doğrula',
 	'CLI_CONFIG_FILE'				=> 'Kullanılacak yapılandırma dosyası',
 	'MISSING_FILE'					=> '%1$s dosyasına erişilemiyor',
 	'MISSING_DATA'					=> 'Yapılandırma dosyası eksik veri ya da geçersiz ayarlar içeriyor olabilir.',
-	'INVALID_YAML_FILE'				=> '%1$s YAML dosyası ayrıştırılamıyor',	
+	'INVALID_YAML_FILE'				=> '%1$s YAML dosyası ayrıştırılamıyor',
+	'CONFIGURATION_VALID'			=> 'Yapılandırma dosyası geçerli',
 ));
 
 // Common updater messages

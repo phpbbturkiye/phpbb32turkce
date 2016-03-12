@@ -4,6 +4,9 @@
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+12-03-2016 v1.2.0-b2
+- Dil dosyaları phpBB 3.2.0-b2 sürümü için yayınlandı.
+
 06-03-2016 v1.2.0-b1a
 - Dil paketi sürüm numarası güncellendi.
 - language/tr/acp/board.php dosyasında bir kaç çeviri hatası düzeltildi. (metotu -> metodu :: uzantı -> eklenti)
