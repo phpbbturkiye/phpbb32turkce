@@ -221,6 +221,16 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'      => 'Yönetici Kontrol Panelinden başarıyla çıkış yaptınız',
 
 	'BACK'					=> 'Geri',
+
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Dosya grubu değiştirilemiyor',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Dosya izinleri değiştirilemiyor',
+	'CANNOT_COPY_FILES'		=> 'Dosyalar kopyalanamıyor',
+	'CANNOT_CREATE_SYMLINK'	=> 'Sembolik bağ oluşturulamıyor',
+	'CANNOT_DELETE_FILES'	=> 'Dosyalar sistemden silinemiyor',
+	'CANNOT_DUMP_FILE'		=> 'Dosya dökümü yapılamıyor',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Dizin yansıtılamıyor',
+	'CANNOT_RENAME_FILE'	=> 'Sistemdeki bir dosya yeniden adlandırılamıyor',
+	'CANNOT_TOUCH_FILES'	=> 'Dosyanın olup olmadığı belirlenemiyor',	
 	
 	'CONTAINER_EXCEPTION' => 'phpBB kurulu bir eklenti içeriği yüzünden yapılandırma hatası ile karşılaştı. Bu nedenle, tüm eklentiler geçici olarak devre dışı bırakıldı. Lütfen forumunuzun önbelleğini temizlemeyi deneyin. İçerik hatası çözüldükten sonra tüm eklentiler otomatik olarak yeniden etkinleştirilecektir. Eğer bu hata devam ederse, destek almak için <a href="https://www.phpbb.com/support">phpBB.com</a> sitesini ziyaret edin.',
 	'EXCEPTION' => 'İstisna',
@@ -604,6 +614,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber hatası</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-posta hatası</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA hatası</strong><br />» %s',	
 	
 	'LOG_FORUM_ADD'							=> '<strong>Yeni forum oluşturuldu</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forum izinleri %1$s adlı forumdan kopyalandı</strong><br />» %2$s',

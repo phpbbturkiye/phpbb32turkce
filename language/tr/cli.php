@@ -81,6 +81,21 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Varolan tüm küçük resimleri sil.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Eksik olan tüm küçük resimleri oluştur.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Tüm küçük resimleri yeniden oluştur.',
+	
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Bir kullanıcı hesabını aktifleştir (ya da deaktif et).',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Aktifleştirilecek hesabın kullanıcı adı.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Kullanıcı’nın hesabını deaktif et',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Kullanıcı zaten aktif.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Kullanıcı zaten aktif değil.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Yeni bir kullanıcı ekle.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Yeni kullanıcının kullanıcı adı',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Yeni kullanıcının şifresi',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Yeni kullanıcının e-posta adresi',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Yeni kullanıcıya hesap aktivasyon e-postası gönder (varsayılan olarak gönderilmez)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Bir kullanıcı hesabını sil.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Silinecek kullanıcının kullanıcı adı',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Bu kullanıcı tarafından gönderilen tüm mesajları sil. Bu seçenek seçilmezse, kullanıcı’nın mesajları tutulacaktır.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Kullanıcı adlarını yeniden temizle.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> '%s eklentisi devre dışı bırakılamadı',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s eklentisi başarıyla devre dışı bırakıldı',
@@ -118,9 +133,24 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Oluşturulacak hiç bir küçük resim yok.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Silinecek hiç bir küçük resim yok.',
+
+	'CLI_USER_ADD_SUCCESS'		=> '%s kullanıcısı başarıyla eklendi.',
+	'CLI_USER_DELETE_CONFIRM'	=> '‘%s’ kullanıcısını silmek istediğinize emin misiniz? [e/H]',
+	'CLI_USER_RECLEAN_START'	=> 'Kullanıcı adları yeniden temizleniyor',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Yeniden temizlenme tamamlandı. Temizlenmesi gereken herhangi bir kullanıcı yok.',
+		1	=> 'Yeniden temizlenme tamamlandı. %d kullanıcı temizlendi.',
+		2	=> 'Yeniden temizlenme tamamlandı. %d kullanıcı temizlendi.',
+	],	
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' İsteğe bağlı olarak sadece belirli cron görevini çalıştırmak için bir cron görev adı belirtebilirsiniz.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Bir kullanıcı hesabını aktifleştirin, ya da bir hesabı <info>--deaktifleştir</info> seçeneğini kullanarak deaktifleştirin.
+İsteğe bağlı olarak kullanıcıya bir aktivasyon e-postası göndermek için, <info>--send-email</info> seçeneğini kullanın.',
+	'CLI_HELP_USER_ADD'			=> '<info>%command.name%</info> komutu yeni bir kullanıcı ekler:
+Eğer bu komut seçenekler olmadan çalıştırılırsa, onları girmeniz istenecektir.
+İsteğe bağlı olarak yeni kullanıcıya bir e-posta göndermek için, <info>--send-email</info> seçeneğini kullanın.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Kullanıcıları yeniden temizleme işlemiyle saklanan tüm kullanıcı adları kontrol edilecek ve ayrıca temiz sürümlerin saklandığına emin olunacaktır. Temizlenen kullanıcı adları büyük küçük harf kuralına uygunlaştırılır, NFC standartlarında normalleştirilir ve ASCII biçime dönüştürülür.',	
 ));

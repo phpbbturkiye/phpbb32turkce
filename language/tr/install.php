@@ -89,15 +89,19 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'			=> 'Dosya mevcut değil',
-	'FILE_NOT_EXISTS_EXPLAIN'	=> 'phpBB’nin kurulabilmesi için %1$s dosyasının olması gerekiyor.',
-	'FILE_NOT_WRITABLE'			=> 'Dosya yazılabilir değil',
-	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'phpBB’nin kurulabilmesi için %1$s dosyasının yazılabilir olması gerekiyor.',
+	'FILE_NOT_EXISTS'						=> 'Dosya mevcut değil',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'phpBB’nin kurulabilmesi için %1$s dosyasının mevcut olması gerekiyor.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'İyi bir forum kullanıcı deneyimi için %1$s dosyasının mevcut olması önerilir.',
+	'FILE_NOT_WRITABLE'						=> 'Dosya yazılabilir değil',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'phpBB’nin kurulabilmesi için %1$s dosyasının yazılabilir olması gerekiyor.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'İyi bir forum kullanıcı deneyimi için %1$s dosyasının yazılabilir olması önerilir.',
 
-	'DIRECTORY_NOT_EXISTS'				=> 'Dizin mevcut değil',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'phpBB’nin kurulabilmesi için %1$s dizininin olması gerekiyor.',
-	'DIRECTORY_NOT_WRITABLE'			=> 'Dizin yazılabilir değil',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'phpBB’nin kurulabilmesi için %1$s dizininin yazılabilir olması gerekiyor.',
+	'DIRECTORY_NOT_EXISTS'						=> 'Dizin mevcut değil',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'phpBB’nin kurulabilmesi için %1$s dizininin mevcut olması gerekiyor.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'İyi bir forum kullanıcı deneyimi için %1$s dizininin mevcut olması önerilir.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'Dizin yazılabilir değil',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'phpBB’nin kurulabilmesi için %1$s dizininin yazılabilir olması gerekiyor.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'İyi bir forum kullanıcı deneyimi için %1$s dizininin yazılabilir olması önerilir.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP sürümü',
@@ -522,7 +526,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Dönüştürme tamamlandı',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.2’ye başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">destek forumlarında</a> mevcuttur.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.2’ye başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">destek forumlarında</a> mevcuttur.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Eski mesaj panonuzda dosya ekleri için FTP yüklemesi açık. Lütfen FTP yükleme seçeneğini kapatın ve geçerli bir dizin belirlendiğine emin olun, daha sonra tüm dosya eki dosyalarını bu yeni web erişilebilirliği olan dizine kopyalayın. Bunu yaptıktan sonra, dönüştürücüyü yeniden başlatın.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Dönüştürme için hiç bir konfigürasyon bilgisi mevcut değil.',
