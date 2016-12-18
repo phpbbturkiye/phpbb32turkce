@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'Eğer PHP kurulumunuz PCRE uzantısı içinde UTF-8 desteği ile derlenmediyse phpBB çalışmayacaktır.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON desteği',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'phpBB’nin düzgün bir şekilde çalışması için, PHP JSON eklentisinin mevcut olması gereklidir.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM desteği',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'phpBB’nin düzgün bir şekilde çalışması için, PHP XML/DOM eklentisinin mevcut olması gereklidir.',
 	'PHP_SUPPORTED_DB'					=> 'Desteklenen veritabanları',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'PHP için uyumlu en düşük bir veritabanı desteğine sahip olmalısınız. Eğer mevcut görünen veritabanı modülleri yoksa hosting sağlayıcınız ile iletişime geçin ya da konu ile ilgili tavsiyeler için PHP kurulum dokümanını inceleyin.',
 
@@ -177,18 +179,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Veritabanı şifresi',
 	'DB_NAME'				=> 'Veritabanı adı',
 	'DB_USERNAME'			=> 'Veritabanı kullanıcı adı',
+	'DATABASE_VERSION'		=> 'Veritabanı sürümü',
 	'TABLE_PREFIX'			=> 'Veritabanındaki tablolar için önek',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Önek, bir harf ile başlamalıdır ve sadece harfler, sayılar ve altçizgiler içermelidir.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Sunucusu 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'ODBC aracılığıyla MSSQL Sunucusu 2000+',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Sunucusu 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQLi Eklentisi ile MySQL',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -201,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Hiç bir hata mesajı verilmedi.',
 	'INST_ERR_PREFIX'				=> 'Belirttiğiniz önek ile başlayan tablolar zaten var, lütfen alternatif bir tane seçin.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Bu makinede kurulu olan MySQL sürümü seçtiğiniz “MySQLi Eklentisi ile MySQL” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek deneyin.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'Kurulu olan SQLite eklentisinin sürümü çok eski, en düşük 2.8.2 sürümüne güncellenmelidir.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Kurulu olan SQLite eklentisinin sürümü çok eski, en düşük 3.6.15 sürümüne güncellenmelidir.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'Bu makinede kurulu olan Oracle’nin sürümünde <var>NLS_CHARACTERSET</var> parametresini <var>UTF8</var>’e göre ayarlamanız gerekiyor. Kurulumunuzu 9.2+ sürümüne güncelleyin veya parametreyi değiştirin.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'Seçtiğiniz veritabanı <var>UNICODE</var> veya <var>UTF8</var> kodlaması içerisinde oluşturulamadı. <var>UNICODE</var> veya <var>UTF8</var> kodlaması ile oluşturulmuş bir veritabanı ile kurmayı deneyin.',
@@ -211,6 +211,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'E-posta yapılandırması',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Paket sürüm kuruldu',
+	'UPDATE_INCOMPLETE'				=> 'phpBB kurulumunuz doğru şekilde güncellenmedi.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Lütfen bu hatayı düzeltmek için alttaki bilgileri okuyun.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Tamamlanmayan güncelleme</h1>
+
+		<p>phpBB kurulumunuzun son güncellemesinin tamamlanmadığını farkettik. <a href="%1$s" title="%1$s">Veritabanı güncelleyici</a> sayfasını ziyaret edin, <em>Sadece veritabanını güncelle</em> seçeneğini seçin ve <strong>Gönder</strong> butonuna tıklayın. Veritabanınızı başarıyla güncelledikten sonra "install"-dizinini silmeyi unutmayın.</p>',
 
 	//
 	// Server data
@@ -293,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Modüller kuruluyor',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Paket eklentiler kuruluyor',
 	'TASK_NOTIFY_USER'			=> 'Bildirim e-postası gönderiliyor',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Migrasyonlar yerleştiriliyor',
 
@@ -431,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Aşağıdaki dosyalarda siz ya da başka bir yönetici tarafından daha önce hiç bir değişiklik yapılmamıştır ve güncellemek istediğiniz eski phpBB sürümünün orijinal dosyaları ile aynıdır.',
 	'FILES_UP_TO_DATE'				=> 'Zaten güncellenmiş dosyalar',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Aşağıdaki dosyalar zaten güncel ve güncelleme yapılmalarına gerek yok.',
+	'FILES_VERSION'					=> 'Dosya Sürümü',
 	'TOGGLE_DISPLAY'				=> 'Dosya listesini göster/gizle',
 
 	// File updater
@@ -448,6 +458,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Veritabanını güncelle',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Veritabanı başarıyla güncellendi.',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Eklentiler güncelleniyor',
 ));
 
 // Converter
@@ -526,7 +538,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Dönüştürme tamamlandı',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.2’ye başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">destek forumlarında</a> mevcuttur.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Mesaj panonuzu phpBB 3.2’ye başarıyla dönüştürdünüz. Şimdi giriş yapabilir ve <a href="../">mesaj panonuza erişebilirsiniz</a>. Lütfen install dizinini silerek mesaj panonuzu aktif etmeden önce, ayarların doğru şekilde transfer edildiğine emin olun. Unutmayın, phpBB kullanımı için çevrimiçi yardım <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Dokümantasyon</a> ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">destek forumlarında</a> mevcuttur.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Eski mesaj panonuzda dosya ekleri için FTP yüklemesi açık. Lütfen FTP yükleme seçeneğini kapatın ve geçerli bir dizin belirlendiğine emin olun, daha sonra tüm dosya eki dosyalarını bu yeni web erişilebilirliği olan dizine kopyalayın. Bunu yaptıktan sonra, dönüştürücüyü yeniden başlatın.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Dönüştürme için hiç bir konfigürasyon bilgisi mevcut değil.',

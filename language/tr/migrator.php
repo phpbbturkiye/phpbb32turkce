@@ -49,14 +49,16 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EXCEPTION_ERROR'			=> 'İstek sırasında bazı şeyler ters gitti ve bir istisna atıldı. Güçlü yeteneklerimiz sayesinde hata oluşmadan önce yapılan değişiklikler geri alındı, ancak yine de mesaj panosunu hatalar için kontrol etmelisiniz.',
 	'MIGRATION_NOT_FULFILLABLE'			=> '"%1$s" migrasyonu yerine getirilebilir değil, kayıp migrasyon "%2$s".',
 	'MIGRATION_NOT_INSTALLED'			=> '"%s" migrasyonu kurulmadı.',	
-	'MIGRATION_NOT_VALID'				=> '%s geçerli bir migrasyon değil.',	
+	'MIGRATION_NOT_VALID'				=> '%s geçerli bir migrasyon değil.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Yüklenen Şema: %1$s; Zaman: %2$.2f saniye',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Şema Yükleniyor: %1$s; Zaman: %2$.2f saniye',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Şema Yükleniyor: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Döndürülen Veri: %1$s; Zaman: %2$.2f saniye',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Veri Döndürülüyor: %1$s; Zaman: %2$.2f saniye',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Veri Döndürülüyor: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Döndürülen Şema: %1$s; Zaman: %2$.2f saniye',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Şema Döndürülüyor: %1$s; Zaman: %2$.2f saniye',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Şema Döndürülüyor: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migrasyon geçersiz. Bir if ifade yardımcısı eksik bir koşul içeriyor.',
@@ -67,9 +69,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migrasyon geçersiz. Tanımlanmamış bir migrasyon aracı metotu ile karşılaşıldı.',
 
 	'MODULE_ERROR'						=> 'Bir modül oluşturulurken bir hata oluştu: %s',
+	'MODULE_EXISTS'						=> 'Bir modül zaten mevcut: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Ana modül ile dil adı verilen bir kaç modül zaten mevcut: %s. Modülü açıklığa kavuşturmak için önce/sonra tuşlarını kullanmayı deneyin.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Gereken bir modül bilgi dosyası eksik: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Gereken bir modül mevcut değil: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Ana modül tanımlayıcı belirlenemedi: %s',
 	'PERMISSION_NOT_EXIST'				=> '"%s" izin ayarı beklenmedik bir şekilde mevcut değil.',
 
 	'ROLE_NOT_EXIST'					=> '"%s" izin rolü beklenmedik bir şekilde mevcut değil.',

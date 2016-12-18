@@ -107,6 +107,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'Grup yönetimi',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Grup izinleri',
 	'ACP_GROUPS_POSITION'			=> 'Grup pozisyonlarını yönet',	
+
+	'ACP_HELP_PHPBB'			=> 'phpBB destek yardımı',
 	
 	'ACP_ICONS'					=> 'Başlık ikonları',
 	'ACP_ICONS_SMILIES'			=> 'Başlık ikonları/ifadeler',
@@ -325,6 +327,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
 	'USER_CONTROL_PANEL'	=> 'Kullanıcı Kontrol Paneli',
 
+	'UPDATE_NEEDED'			=> 'Mesaj panosu güncel değil.',
+	'UPDATE_NOT_NEEDED'		=> 'Mesaj panosu güncel.',
+	'UPDATES_AVAILABLE'		=> 'Güncellemeler mevcut:',
+
 	'WARNING'				=> 'Uyarı',
 ));
 
@@ -472,16 +478,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Kullanıcı aktif değil',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'İstatistiksel analiz için lütfen phpBB’ye sunucunuz ve mesaj panosu ayarlarınız hakkındaki bilgileri gönderiniz. Sizi ve web sitenizi temsil edebilecek tüm bilgiler çıkarılmış olacaktır - Veriler tamamen <strong>anonim</strong> olacaktır. Gelecek phpBB sürümleri hakkında bu bilgilerden yola çıkarak kararlar alacağız. İstatistikler herkesin erişebileceği şekildedir. Biz bu verileri phpBB’nin programlama dili olan PHP projesiyle de paylaşacağız.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Aşağıdaki butonu kullanarak gönderilecek tüm değişkenlerin önizlemesine ulaşabilirsiniz.',
 	'DONT_SEND_STATISTICS'		=> 'Eğer istatistiksel bilgileri phpBB’ye göndermek istemiyorsanız YKP’ye dönün.',
 	'GO_ACP_MAIN'				=> 'YKP başlangıç sayfasına git',
 	'HIDE_STATISTICS'			=> 'Ayrıntıları gizle',
-	'SEND_STATISTICS'			=> 'İstatistiksel bilgileri gönder',
+	'SEND_STATISTICS'			=> 'İstatistikleri gönder',
+	'SEND_STATISTICS_LONG'		=> 'İstatistiksel bilgileri gönder',
 	'SHOW_STATISTICS'			=> 'Ayrıntıları göster',
 	'THANKS_SEND_STATISTICS'	=> 'Bilgilerinizi gönderdiğiniz için teşekkürler.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB istatistikleri gönderilemedi',
 ));
 
 // Log Entries
@@ -811,4 +819,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Eklenti etkinleştirildi</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Eklenti devre dışı bırakıldı</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Eklenti’nin verisi silindi</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Eklenti güncellendi</strong><br />» %s',
 ));

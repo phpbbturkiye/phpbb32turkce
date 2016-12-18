@@ -66,21 +66,30 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell’i başlat.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Belirtilen eklentiyi temizler.',
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Yeniden ayrıştırma olabilmesi için metin türlerini listeler.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Geçerli text_formatter servisi ile depolanan metni yeniden ayrıştırır.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Yeniden ayrıştırma için metin türü. Her şeyi yeniden ayrıştırmak için boş bırakın.',
+
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Yeniden ayrıştırma olabilmesi için metin türlerini listeler.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Geçerli text_formatter servisi ile depolanan metni yeniden ayrıştırır.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Yeniden ayrıştırma için metin türü. Her şeyi yeniden ayrıştırmak için boş bırakın.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Herhangi bir değişikliği kaydetmeyin; sadece olacak şeyleri yazdırın',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'İşlem için en düşük kayıt ID numarası',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'İşlem için en yüksek kayıt ID numarası',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Bir kerede işlemek için yaklaşık kayıt sayısı',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Son uygulamanın durdurulduğu yerden yeniden ayrıştırmaya başla',	
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Kullanıcı tablosunun user_email_hash sütununu yeniden hesaplar.',
+
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Eğer sadece eski eşleşen değer geçerliyse bir yapılandırma seçeneğinin değerini ayarlar',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini ayarlar',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Varolan tüm küçük resimleri sil.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Eksik olan tüm küçük resimleri oluştur.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Tüm küçük resimleri yeniden oluştur.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Mesaj panosunun güncel olup olmadığını kontrol edin',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Kontrol edilecek eklentinin adı (eğer hepsini kontrol etmek istiyorsanız, tüm eklentileri seçin)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Kontrol komutunu önbellekle çalıştır.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Sadece kararlı ya da kararlı olmayan sürümleri kontrol etmek için komutu çalıştır.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" geçerli bir kararlı sürüm değil.',
 	
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Bir kullanıcı hesabını aktifleştir (ya da deaktif et).',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Aktifleştirilecek hesabın kullanıcı adı.',
@@ -104,6 +113,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Eklentinin adı',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> '%s eklentisi temizlenemedi',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> '%s eklentisi başarıyla temizlendi',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> '%s eklentisi güncellenemedi',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> '%s eklentisi başarıyla güncellendi',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Hiç bir eklenti bulunamadı.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Mevcut',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Devre dışı bırakıldı',
