@@ -68,6 +68,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Belirtilen eklentiyi temizler.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Yeniden ayrıştırma olabilmesi için metin türlerini listeler.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Kullanılabilir yeniden ayrıştırıcılar:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Geçerli text_formatter servisi ile depolanan metni yeniden ayrıştırır.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Yeniden ayrıştırma için metin türü. Her şeyi yeniden ayrıştırmak için boş bırakın.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Herhangi bir değişikliği kaydetmeyin; sadece olacak şeyleri yazdırın',

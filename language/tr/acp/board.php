@@ -349,6 +349,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'			=> 'Çerez domain adresi',
 	'COOKIE_NAME'			=> 'Çerez adı',
+	'COOKIE_NOTICE'				=> 'Çerez bildirimi',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Eğer bu özellik etkinleştirilirse kullanıcılar mesaj panonuzu ziyaret ettiği zaman bir çerez bildirimi gösterilecektir. Çerez bildirimi, mesaj panonuzun içeriğine ve aktif eklentilere bağlı olarak ülkenizdeki yasalar tarafından istenebilir.',
 	'COOKIE_PATH'			=> 'Çerez klasör adresi',
 	'COOKIE_SECURE'			=> 'Çerez güvenliği',
 	'COOKIE_SECURE_EXPLAIN'	=> 'Sunucunuz SSL modunda çalışıyorsa açın, aksi halde sakın açmayın',
