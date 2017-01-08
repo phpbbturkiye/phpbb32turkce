@@ -167,7 +167,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Arama ayarları',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Güvenlik ayarları',
-	'ACP_SEND_STATISTICS'		=> 'İstatistiksel bilgileri gönder',	
 	'ACP_SERVER_CONFIGURATION'	=> 'Sunucu konfigürasyonu',
 	'ACP_SERVER_SETTINGS'		=> 'Sunucu ayarları',
 	'ACP_SIGNATURE_SETTINGS'	=> 'İmza ayarları',

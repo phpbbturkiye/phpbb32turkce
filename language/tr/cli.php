@@ -152,7 +152,6 @@ $lang = array_merge($lang, array(
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Yeniden temizlenme tamamlandı. Temizlenmesi gereken herhangi bir kullanıcı yok.',
 		1	=> 'Yeniden temizlenme tamamlandı. %d kullanıcı temizlendi.',
-		2	=> 'Yeniden temizlenme tamamlandı. %d kullanıcı temizlendi.',
 	],	
 ));
 
