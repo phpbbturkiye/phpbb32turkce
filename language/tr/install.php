@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> '<a href="%1$s">YKP sayfasına</a> git',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB zaten kuruldu.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB henüz kurulmadı.'	
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB henüz kurulmadı.',
 ));
 
 // Requirements translation
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Yeniden test gereksinimleri',
 
-	'STAGE_REQUIREMENTS'	=> 'Kontrol gereksinimleri'
+	'STAGE_REQUIREMENTS'	=> 'Kontrol gereksinimleri',
 ));
 
 // General error messages
@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Hiç bir veritabanı adı belirtilmedi.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Mesaj panonuzun dizin ağacı içerisinde veritabanı dosyası belirlendi. Web üzerinden erişim konumunda olmayan bir yere bu dosyayı yerleştirmelisiniz.',
 	'INST_ERR_DB_CONNECT'			=> 'Veritabanına bağlanılamıyor, hata mesajı için alta bakın.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Hem veritabanı hem de onu içeren dizin yazılabilir olmalıdır.',	
 	'INST_ERR_DB_NO_ERROR'			=> 'Hiç bir hata mesajı verilmedi.',
 	'INST_ERR_PREFIX'				=> 'Belirttiğiniz önek ile başlayan tablolar zaten var, lütfen alternatif bir tane seçin.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Bu makinede kurulu olan MySQL sürümü seçtiğiniz “MySQLi Eklentisi ile MySQL” seçeneği ile uyuşmuyor. Lütfen bunun yerine “MySQL” seçeneğini seçerek deneyin.',
@@ -224,6 +225,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Yeni bir özellik <strong>%1$s</strong> yayınlandı. Bu yayın hakkında daha fazla bilgi almak ve nasıl güncelleme yapacağınızı öğrenmek için lütfen <a href="%2$s" title="%2$s"><strong>sürüm duyurusu</strong></a> sayfasını ziyaret edin.',	
 	'SERVER_CONFIG'				=> 'Sunucu yapılandırması',
 	'SCRIPT_PATH'				=> 'Komut yolu',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Alan adına göre phpBB’nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',
@@ -296,9 +298,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Tablolar oluşturuluyor',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Botlar kaydediliyor',
-	'TASK_ADD_LANGUAGES'	=> 'Mevcut diller kuruluyor',
-	'TASK_ADD_MODULES'		=> 'Modüller kuruluyor',
+	'TASK_ADD_BOTS'				=> 'Botlar kaydediliyor',
+	'TASK_ADD_LANGUAGES'		=> 'Mevcut diller kuruluyor',
+	'TASK_ADD_MODULES'			=> 'Modüller kuruluyor',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Arama indeksi oluşturuluyor',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Paket eklentiler kuruluyor',

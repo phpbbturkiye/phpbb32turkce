@@ -229,9 +229,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'İfadeler',
 	'SMILIES_ARE_OFF'			=> 'İfadeler <em>KAPALI</em>',
 	'SMILIES_ARE_ON'			=> 'İfadeler <em>AÇIK</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'		=> 'Sabit/Duyuru zaman limiti',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Sabit/Duyuru/Global zaman sınırı',
 	'STICK_TOPIC_FOR'			=> 'Başlık sabitleme süresi',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Sabit/Duyuru süresinin hiç bitmemesi için 0 yazın. Not: Bu sayı mesajın tarihine göredir.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Sabit/Duyuru/Global süresinin hiç bitmemesi için 0 yazın. Not: Bu sayı mesajın tarihine göredir.',
 	'STYLES_TIP'				=> 'Tip: Seçilmiş metine stiller daha kolay uygulanabilir.',
 
 	'TOO_FEW_CHARS'				=> 'Mesajınız çok az karakter içeriyor.',

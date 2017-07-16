@@ -178,7 +178,8 @@ $lang = array_merge($lang, array(
 	'CONTACT_US'			=> 'Bize ulaşın',
 	'COOKIE_CONSENT_INFO'	=> 'Daha fazla bilgi edinin',
 	'COOKIE_CONSENT_MSG'	=> 'Bu web sitesi, web sitemizden en iyi deneyimi elde etmeniz için çerezleri kullanmaktadır.',
-	'COOKIE_CONSENT_OK'		=> 'Anladım!',	
+	'COOKIE_CONSENT_OK'		=> 'Anladım!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',	
 	'COOKIES_DELETED'		=> 'Tüm mesaj panosu çerezleri başarıyla silindi.',
 	'CURRENT_TIME'			=> 'Zaman: %s',
 

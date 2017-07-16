@@ -57,11 +57,12 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Belirtilen eklentiyi devre dışı bırakır.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Belirtilen eklentiyi etkinleştirir.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Bağlı olmayan migrasyonları bulur.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Forumların ve modüllerin ağaç yapısını onarır.',	
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Bir yapılandırma seçeneğinin değerini alır',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Bir yapılandırma seçeneğinin tamsayı değerini arttırır',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Dosya sistemi üzerinde ve veritabanı içerisindeki tüm eklentileri listeler.',
 
-	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Ortam adı.',	
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Ortam adı.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Güvenli Mod’da çalıştır (eklentiler olmadan).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell’i başlat.',
 
@@ -90,7 +91,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Kontrol komutunu önbellekle çalıştır.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Sadece kararlı ya da kararlı olmayan sürümleri kontrol etmek için komutu çalıştır.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" geçerli bir kararlı sürüm değil.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'bcrypt ile hash olması için güncel olmayan şifre hashlerini günceller.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" "kararlı" ya da "kararlı olmayan" olarak ayarlanmalıdır.',
 	
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Bir kullanıcı hesabını aktifleştir (ya da deaktif et).',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Aktifleştirilecek hesabın kullanıcı adı.',
@@ -109,8 +112,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> '%s eklentisi devre dışı bırakılamadı',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s eklentisi başarıyla devre dışı bırakıldı',
+	'CLI_EXTENSION_DISABLED'			=> '%s eklentisi etkin değil',	
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> '%s eklentisi etkinleştirilemedi',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s eklentisi başarıyla etkinleştirildi',
+	'CLI_EXTENSION_ENABLED'				=> '%s eklentisi zaten etkin',
 	'CLI_EXTENSION_NAME'				=> 'Eklentinin adı',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> '%s eklentisi temizlenemedi',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> '%s eklentisi başarıyla temizlendi',
@@ -119,9 +124,11 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Hiç bir eklenti bulunamadı.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Mevcut',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Devre dışı bırakıldı',
-	'CLI_EXTENSIONS_ENABLED'			=> 'Etkinleştirildi',	
+	'CLI_EXTENSIONS_ENABLED'			=> 'Etkinleştirildi',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Forumların ve modüllerin ağaç yapısı başarıyla onarıldı.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tüm e-posta hashleri başarıyla yeniden hesaplandı.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Güncel olmayan şifreler bcrypt ile hashlenerek başarıyla güncellendi.',
 
 	'CLI_MIGRATION_NAME'					=> 'Ad alanı içeren migrasyon adı (sorunları önlemek için ters slaş (eğik çizgi) yerine düz slaş kullanın).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Mevcut migrasyonlar',

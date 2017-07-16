@@ -161,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Bu bölümde varsayılan mesaj gönderme ayarlarını belirleyebilirsiniz.',
 	'ALLOW_POST_LINKS'					=> 'Mesajlarda/özel mesajlarda bağlantılara izin ver',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Eğer <code>[URL]</code> BBCode etiketine izin verilmediyse ve otomatik/sihirli URL’ler kapatıldıysa.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Bağlantılarda izin verilen şemalar',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Kullanıcılar sadece şematik URL’leri ya da virgül ile ayrılmış izin verilen şemalardan birini mesaj olarak gönderebilir.',	
 	'ALLOW_POST_FLASH'               => 'Mesajlarda <code>[FLASH]</code> BBCode etiketi kullanımına izin ver',
 	'ALLOW_POST_FLASH_EXPLAIN'         => 'Eğer mesajlarda <code>[FLASH]</code> BBCode etiketine izin verilmezse, bunun dışında izin sistemi kontrollerindeki kullanıcılar <code>[FLASH]</code> BBCode etiketi kullanabilir.',
 
@@ -345,13 +347,16 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Buradaki detaylar, kullanıcılarınızın tarayıcılarına gönderilen çerez verilerini tanımlar. Bir çok durumda çerez verileri için burada belirtilmiş varsayılan değerler yeterli olacaktır. Buradaki değerleri dikkatli bir şekilde değiştirmezseniz, yanlış değerler kullanıcılarınızın girişini engelleyebilir.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Buradaki detaylar, kullanıcılarınızın tarayıcılarına gönderilen çerez verilerini tanımlar. Bir çok durumda çerez verileri için burada belirtilmiş varsayılan değerler yeterli olacaktır. Buradaki değerleri dikkatli bir şekilde değiştirmezseniz, yanlış değerler kullanıcılarınızın girişini engelleyebilir. Eğer mesaj panonuza giriş yapmış kullanıcılar ile ilgili sorunlarınız varsa, <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Bilgi Tabanı - Hatalı çerez ayarlarını düzeltme</a> sayfasını ziyaret edin</b>.',
 
 	'COOKIE_DOMAIN'			=> 'Çerez domain adresi',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'Bir çok durumda çerez alan adı isteğe bağlıdır. Eğer emin değilseniz burayı boş bırakın.<br /><br /> Başka bir yazılımla entegre edilmiş bir mesaj panonuz varsa ya da birden fazla alan adına sahipseniz, bu durumda çerez alan adını belirlemek için takip eden yönergeleri yapmanız gereklidir. Eğer <i>example.com</i> ve <i>forums.example.com</i>, ya da bir ihtimal <i>forums.example.com</i> ve <i>blog.example.com</i> gibi bir alan adına sahipseniz, <i>example.com</i> gibi ortak alan adını bulana kadar alt alan adlarını kaldırın. Ortak alan adını belirlediyseniz ortak alan adının önüne bir nokta ekleyin ve .example.com (baştaki noktaya dikkat edin) olarak girin.',	
 	'COOKIE_NAME'			=> 'Çerez adı',
+	'COOKIE_NAME_EXPLAIN'		=> 'Bu, istediğiniz herhangi bir şey olabilir, orijinal yapın. Her zaman, çerez ayarları değiştirildiğinde çerezi adı da değiştirilmelidir.',	
 	'COOKIE_NOTICE'				=> 'Çerez bildirimi',
 	'COOKIE_NOTICE_EXPLAIN'		=> 'Eğer bu özellik etkinleştirilirse kullanıcılar mesaj panonuzu ziyaret ettiği zaman bir çerez bildirimi gösterilecektir. Çerez bildirimi, mesaj panonuzun içeriğine ve aktif eklentilere bağlı olarak ülkenizdeki yasalar tarafından istenebilir.',
 	'COOKIE_PATH'			=> 'Çerez klasör adresi',
+	'COOKIE_PATH_EXPLAIN'		=> 'Not: Bu her zaman bir eğik çizgi (slaş) işaretidir, mesaj panonuzun URL adresinin ne olduğu önemli değildir.',
 	'COOKIE_SECURE'			=> 'Çerez güvenliği',
 	'COOKIE_SECURE_EXPLAIN'	=> 'Sunucunuz SSL modunda çalışıyorsa açın, aksi halde sakın açmayın',
 	'ONLINE_LENGTH'				=> 'Çevrimiçi zamanı görüntüleme süresi',
@@ -392,6 +397,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Başlık sayfalarında özel profil alanları göster',
 	'LOAD_USER_ACTIVITY'			=> 'Kullanıcıların faaliyetlerini göster',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Kullanıcı profillerinde ve kullanıcı kontrol panelinde aktif olunan başlık/forum bilgilerini göster. Bir milyon mesajdan fazla olan mesaj panolarında bu özelliği kapatmanız önerilir.',
+	'LOAD_USER_ACTIVITY_LIMIT'		=> 'Kullanıcının aktivite mesaj sınırı',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> 'Mesaj sayısı bu sayının üzerinde olan kullanıcılar için aktif başlık/forum gösterilmeyecektir. Sınırı kapatmak için 0 olarak ayarlayın.',	
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Okunan bildirimin silinme süresi',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Okunan bir bildirimin otomatik olarak silinmesinden önce geçecek gün sayısı. Bildirimlerin hiç silinmemesi için bu değeri 0 olarak ayarlayın.',
 	'RECOMPILE_STYLES'			=> 'Bozulmuş stil bileşenlerini yeniden derle',
@@ -564,6 +571,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Bu özellik kapatılırsa, mesaj panosu genelinde hiçbir e-posta gönderilemeyecektir. <em>Not: Kullanıcı ve yönetici hesap aktivasyonu ayarları bu özelliğin aktif olmasını gerekli tutar. Eğer şu anda aktivasyon ayarlarında “kullanıcı” ya da “yönetici” aktivasyonunu kullanıyorsanız, bu ayarı kapattığınızda kayıt olma işlevi de kapatılacaktır.</em>',
 	'SEND_TEST_EMAIL'				=> 'Test e-postası gönder',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Bu işlem hesabınıza tanımlı e-posta adresine bir test e-postası gönderecektir.',	
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Kendinden-imzalı SSL sertifikalarına izin ver',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Kendinden-imzalı SSL sertifikası ile SMTP sunucusuna bağlantılara izin verir.<em><strong>Dikkat:</strong> Kendinden-imzalı SSL sertifikalarına izin vermek güvenlik etkilerine neden olabilir.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP için doğrulama metodu',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Ancak kullanıcı adı ve şifre girildiğinde kullanılır, Bu metodun nasıl kullanılacağından emin değilseniz hosting firmanıza danışınız.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -580,7 +589,12 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP ayarları',
 	'SMTP_USERNAME'					=> 'SMTP kullanıcı adı',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Sadece SMTP sunucunuz kullanıcı adı istiyorsa girin.',
-	'TEST_EMAIL_SENT'				=> 'Test e-postası gönderildi.<br />Eğer e-postayı almadıysanız, lütfen e-posta ayarlarınızı kontrol edin.<br /><br />Eğer yardıma ihtiyacınız varsa, lütfen <a href="https://www.phpbb.com/community/">phpBB destek forumlarını</a> ziyaret edin.',	
+	'SMTP_VERIFY_PEER'				=> 'SSL sertifikasını doğrula',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'SMTP sunucusu tarafından kullanılan SSL sertifikasının doğrulamasını istenir.<em><strong>Dikkat:</strong> Doğrulanmamış SSL sertifikaları ile yapılan eş bağlantılar güvenlik ile ilgili sonuçlara neden olabilir.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP eş adını doğrula',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'SSL / TLS bağlantıları kullanılan SMTP sunucuları için eş adlarının doğrulanması istenir.<em><strong>Dikkat:</strong> Doğrulanmayan eşlere bağlanmak güvenlik ile ilgili sonuçlara neden olabilir.</em>',
+	'TEST_EMAIL_SENT'				=> 'Test e-postası gönderildi.<br />Eğer e-postayı almadıysanız, lütfen e-posta ayarlarınızı kontrol edin.<br /><br />Eğer yardıma ihtiyacınız varsa, lütfen <a href="https://www.phpbb.com/community/">phpBB destek forumlarını</a> ziyaret edin.',
+	
 	'USE_SMTP'						=> 'E-posta için SMTP sunucusu kullan',
 	'USE_SMTP_EXPLAIN'				=> '“Evet” seçilmesi durumunda, sunucunuzun yerel posta fonksiyonu yerine, isim verilmiş sunucu ile e-posta göndermek isterseniz veya zorundaysanız kullanılır.',
 ));
@@ -589,6 +603,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Buradan anlık mesaj gönderme ve mesaj panosu notları için Jabber kullanımını açabilir ve kontrol edebilirsiniz. Jabber açık kaynak kodlu protokoldür ve bu yüzden herhangi bir kimse tarafından kullanılabilir. Bazı Jabber Sunucuları transports ve gateways içerirler. Bu durum size diğer networkler üzerindeki kullanıcılarla iletişim kurmanıza izin verir. Tüm sunucular olmasada destekledikleri Transports ve protokoller üzerindeki değişim, işletim tarafından transports u engelleyebilir. Lütfen kayıtlı hesap bilgilerini daha önceden girdiğinize emin olun - phpBB buraya girdiğiniz bilgileri kullanacaktır.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Kendinden-imzalı SSL sertifikalarına izin ver',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Kendinden-imzalı SSL sertifikası ile Jabber sunucusuna bağlanmaya izin verir.<em><strong>Dikkat:</strong> Kendinden-imzalı SSL sertifilarına izin vermek güvenlik ile ilgili sonuçlara neden olabilir.</em>',	
 	'JAB_ENABLE'				=> 'Jabber’i aç',
 	'JAB_ENABLE_EXPLAIN'		=> 'Jabber mesajlaşma ve haberleşme kullanımını açar.',
 	'JAB_GTALK_NOTE'         => 'Not: GTalk çalışmayacaktır, çünkü <samp>dns_get_record</samp> özelliği bulunamıyor. Bu özellik PHP4 içerisinde mevcut değildir, ve Windows platformlarında yürütülemez. Şimdilik BSD-tabanlı sistemlerde (Mac OS dahil) çalışmaz.',
@@ -605,4 +621,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'      => 'Eğer bu özellik aktifse, kabul ettirmek için güvenli bağlantı denenecektir. Eğer belirlenen port 5222 ise Jabber portu 5223 olarak değiştirilecektir.',
 	'JAB_USERNAME'            => 'Jabber kullanıcı adı ya da JID',
 	'JAB_USERNAME_EXPLAIN'      => 'Bir kullanıcı adı ya da geçerli bir JID belirtin. Kullanıcı adı doğruluk için kontrol edilmeyecektir. Eğer sadece bir kullanıcı adı belirttiyseniz, o zaman JID hesabınız yukarıda belirlediğiniz kullanıcı adı ve sunucu olacaktır. Aksi takdirde geçerli bir JID belirtin, örneğin user@jabber.org.',
+	'JAB_VERIFY_PEER'				=> 'SSL sertifikasını doğrula',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Jabber sunucusu tarafından kullanılan SSL sertifikasının doğrulamasını istenir.<em><strong>Dikkat:</strong> Doğrulanmamış SSL sertifikaları ile yapılan eş bağlantılar güvenlik ile ilgili sonuçlara neden olabilir.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Jabber eş adını doğrula',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'SSL / TLS bağlantıları kullanılan Jabber sunucuları için eş adlarının doğrulanması istenir.<em><strong>Dikkat:</strong> Doğrulanmayan eşlere bağlanmak güvenlik ile ilgili sonuçlara neden olabilir.</em>',	
 ));
