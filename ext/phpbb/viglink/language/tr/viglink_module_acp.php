@@ -37,6 +37,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink ayarları',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink, kullanıcı deneyiminde herhangi bir değişiklik yapmadan forumunuzun kullanıcıları tarafından gönderilen bağlantılardan birbirinden ayrı bir şekilde para kazandıran üçüncü parti bir hizmettir. Kullanıcılar giden bağlantılardaki ürünlere ya da hizmetlere tıkladığında veya bir şey satın aldığında, satıcılar ya da tüccarlar VigLink’e bir komisyon öder ve bu komisyonun bir kısmı phpBB projesine bağışlanır. VigLink’i etkinleştirmeyi seçerek ve phpBB projesine gelirleri bağışlayarak, açık kaynak organizasyonumunuzu destekleyebilir ve finansal güvenliğimizin devam etmesini sağlayabilirsiniz.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Bu ayarları istediğiniz zaman “<a href="%1$s">VigLink ayarları</a>” panelinden değiştirebilirsiniz.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Gönder butonuna tıklayarak alttaki tercih ettiğiniz ayarları gönderdikten sonra bu sayfaya artık yönlendirilmeyeceksiniz.',	
 	'ACP_VIGLINK_ENABLE'			=> 'VigLink’i etkinleştir',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'VigLink hizmetlerinin kullanımını etkinleştirir.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Kendi kazançlarınızı talep edin (isteğe bağlı)',
