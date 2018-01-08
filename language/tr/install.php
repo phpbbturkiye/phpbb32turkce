@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS'			=> 'Yeni bir özellik <strong>%1$s</strong> yayınlandı. Bu yayın hakkında daha fazla bilgi almak ve nasıl güncelleme yapacağınızı öğrenmek için lütfen <a href="%2$s" title="%2$s"><strong>sürüm duyurusu</strong></a> sayfasını ziyaret edin.',	
+	'UPGRADE_INSTRUCTIONS'			=> 'Yeni sürüm <strong>%1$s</strong> yayınlandı. Bu sürüm hakkında daha fazla bilgi almak ve nasıl güncelleme yapacağınızı öğrenmek için lütfen <a href="%2$s" title="%2$s"><strong>sürüm duyurusu</strong></a> sayfasını ziyaret edin.',	
 	'SERVER_CONFIG'				=> 'Sunucu yapılandırması',
 	'SCRIPT_PATH'				=> 'Komut yolu',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Alan adına göre phpBB’nin ilgili konum yolu, ör: <samp>/phpBB3</samp>.',

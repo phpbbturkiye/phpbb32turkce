@@ -46,5 +46,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Kazançlarınızı talep edin',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'VigLink para kazandıran bağlantılardan forumunuzun kazançlarını phpBB projesine bağışlamak yerine kendinize talep edebilirsiniz. Hesap ayarlarınızı yönetmek için, “Convert account” bağlantısına tıklayarak “VigLink Convert” hesabına kaydolun.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Convert hesabı',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'VigLink convert hesabı bağlantısı alınamadı.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'VigLink convert hesabı bağlantısı alınamadı.',
 ));

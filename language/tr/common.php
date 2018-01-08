@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'tr',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 0,
 	
@@ -544,6 +544,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Seçenekler',
 
+	'PAGE_NOT_FOUND'		=> 'İstenilen sayfa bulunamadı.',	
 	'PAGE_OF'				=> '<strong>%1$d</strong>. sayfa (Toplam <strong>%2$d</strong> sayfa)',
 	'PAGE_TITLE_NUMBER'		=> 'Sayfa %s',
 	'PASSWORD'				=> 'Şifre',
