@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 // 
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<br />Türkçe çeviri: <a href="https://www.phpbbturkey.com/">phpBB Türkiye</a> & <a href="http://www.turkiyeforum.com/">Türkiye Forum</a>',
+	'TRANSLATION_INFO'	=> '<br />Türkçe çeviri: <a href="https://www.phpbbturkey.com/">phpBB Türkiye</a> & <a href="https://www.turkiyeforum.com/">Türkiye Forum</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)	
@@ -137,8 +137,10 @@ $lang = array_merge($lang, array(
 	'BROWSING_FORUM_GUESTS'	=> array(
 		1	=> 'Bu forumu görüntüleyen kullanıcılar: %2$s ve %1$d misafir',
 	),
+	'BUTTON_DELETE'         => 'Sil',	
 	'BUTTON_EDIT'			=> 'Düzenle',
 	'BUTTON_FORUM_LOCKED'	=> 'Kilitli',
+	'BUTTON_INFORMATION'    => 'Bilgi',	
 	'BUTTON_NEW_TOPIC'		=> 'Yeni Başlık',
 	'BUTTON_PM'				=> 'ÖM',
 	'BUTTON_PM_FORWARD'		=> 'İlet',
@@ -147,7 +149,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL'	=> 'Tümünü Cevapla',
 	'BUTTON_POST_REPLY'		=> 'Cevapla',
 	'BUTTON_QUOTE'			=> 'Alıntı',
+	'BUTTON_REPORT'         => 'Bildir',	
 	'BUTTON_TOPIC_LOCKED'	=> 'Kilitli',
+	'BUTTON_WARN'           => 'Uyarı',	
 	'BYTES'					=> 'Byte',
 	'BYTES_SHORT'			=> 'B',
 
@@ -187,7 +191,7 @@ $lang = array_merge($lang, array(
 	'DAYS'					=> 'Gün',
 	'DELETE'				=> 'Sil',
 	'DELETE_ALL'			=> 'Tümünü sil',
-	'DELETE_COOKIES'		=> 'Tüm mesaj panosu çerezlerini sil',
+	'DELETE_COOKIES'		=> 'Çerezleri sil',
 	'DELETE_MARKED'			=> 'İşaretlileri Sil',
 	'DELETE_POST'			=> 'Mesajı sil',
 	'DELIMITER'				=> 'Sınırlayıcı',
@@ -591,6 +595,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'            => 'Önceki',      // Used in pagination
 	'PREVIOUS_STEP'         => 'Önceki',
 	'PRIVACY'			=> 'Gizlilik ilkeleri',
+	'PRIVACY_LINK'			=> 'Gizlilik',	
 	'PRIVATE_MESSAGE'	=> 'Özel mesaj',
 	'PRIVATE_MESSAGES'	=> 'Özel mesajlar',
 	'PRIVATE_MESSAGING'	=> 'Özel mesajlaşma',
@@ -712,7 +717,7 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Konu',
 	'SUBMIT'					=> 'Gönder',
 	'TB'				=> 'TB',
-	
+	'TERMS_LINK'		=> 'Koşullar',	
 	'TERMS_USE'			=> 'Kullanım koşulları',
 	'TEST_CONNECTION'	=> 'Bağlantı testi',
 	'THE_TEAM'			=> 'Takım',

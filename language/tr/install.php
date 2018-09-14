@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Destek',
-	'SUPPORT_BODY'		=> 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Destek, şu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüştürme</li><li>diğer mesaj panosu yazılımlarından phpBB3’e dönüştürme (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=486">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>Eklentiler / Stiller</h2><p>Eklentiler ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=451">Uzantılar Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve şablonlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=471">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Destek Alma</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">phpBB Hoşgeldiniz Paketi</a><br /><a href="https://www.phpbb.com/support/">Destek Bölümü</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kaldığınıza emin olmak için, neden <a href="https://www.phpbb.com/support/">e-posta listemize abone olmuyorsunuz</a>?<br /><br />',
+	'SUPPORT_BODY'		=> 'phpBB3’ün şu anki sabit sürümü için ücretsiz, tam destek sağlanacaktır. Destek, şu konuları kapsar:</p><ul><li>kurulum</li><li>ayarlar</li><li>teknik sorular</li><li>yazılımdaki olası hatalara bağlı problemler</li><li>Release Candidate (RC) sürümlerinden son sabit sürüme güncelleme</li><li>phpBB 2.0.x sürümlerinden phpBB3 sürümüne dönüştürme</li><li>diğer mesaj panosu yazılımlarından phpBB3’e dönüştürme (lütfen <a href="https://www.phpbb.com/community/viewforum.php?f=486">Dönüştürücüler Forumuna</a> bakın)</li></ul><p>Hala phpBB3’ün beta sürümlerini kullanan kullanıcıların kurulumlarını, son sürümün yeni kopyası ile değiştirmeye teşvik ediyoruz.</p><h2>Eklentiler / Stiller</h2><p>Eklentiler ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=451">Uzantılar Forumuna</a> mesaj gönderin.<br />Stiller, temalar ve şablonlar ile ilgili sorunlar için, lütfen uygun olan <a href="https://www.phpbb.com/community/viewforum.php?f=471">Stiller Forumuna</a> mesaj gönderin.<br /><br />Eğer belirli bir pakete bağlı sorunuz varsa, lütfen direkt olarak paket için belirlenmiş başlığa mesaj gönderin.</p><h2>Destek Alma</h2><p><a href="https://www.phpbb.com/support/">Destek Bölümü</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Kolay Başlangıç Rehberi</a><br /><br />Son haberler ve yayınlanan sürümler ile güncel kalmak için, bizi <a href="https://www.twitter.com/phpbb/">Twitter</a> ve <a href="https://www.facebook.com/phpbb/">Facebook</a> sayfalarımızdan takip edebilirsiniz<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Genel Kamu Lisansı',
@@ -193,6 +193,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Veritabanı kurulum hatası',	
 	'INST_ERR_NO_DB'				=> 'Seçilen veritabanı tipi için PHP modülü yüklenmedi.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'Girdiğiniz önek geçersiz. Önek, bir harf ile başlamalı ve sadece harfler, sayılar ve altçizgiler içermelidir.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Belirttiğiniz tablo öneki çok uzun. En fazla %d karakter uzunluğunda olmalıdır.',
@@ -354,17 +355,40 @@ $lang = array_merge($lang, array(
 
 		<br />
 
+		<h1>Tam Paket ile kurulumunuz nasıl güncelleştirilir</h1>
+
+		<p>Kurulumunuzu güncellemenin önerilen yolu Tam Paketi kullanmaktır. Eğer kurulumunuzdaki çekirdek phpBB dosyaları değiştirildiyse, bu değişiklikleri kaybetmemek için otomatik güncelleme paketini kullanmak isteyebilirsiniz. Ayrıca kurulumunuzu INSTALL.html belgesinde listelenen diğer yöntemleri kullanarak da güncelleyebilirsiniz. Tam paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Tüm mesaj panosu dosyalarının ve veritabanının yedeğini alın.</strong></li>
+			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve son yayınlanan "Full Package" arşivini indirin.</li>
+			<li>Arşiv dosyasını açın.</li>
+			<li><code class="inline">config.php</code> dosyası ile <code class="inline">/images</code>, <code class="inline">/store</code> ve <code class="inline">/files</code> klasörlerini <em>paketin içerisinden</em> (sitenizden değil) kaldırın (silin).</li>
+			<li>Yönetim Kontrol Paneli -> Mesaj Panosu Ayarları sayfasına gidin ve varsayılan stilin prosilver olarak ayarlandığına emin olun. Eğer başka bir stil ayarlıysa, prosilver stilini ayarlayın.</li>
+			<li>Sunucunuzda, mesaj panonuzun olduğu ana dizinden <code class="inline">/vendor</code> ve <code class="inline">/cache</code> klasörlerini silin.</li>
+			<li>FTP ya da SSH programı yardımıyla kalan dosya ve klasörleri (yani, phpBB3 klasörünün kalan İÇERİĞİNİ) sunucunuzdaki mesaj panosu kurulumunuzun ana dizinine yükleyin, varolan dosyaların üzerine yazın. (Not: Yeni phpBB3 içeriğini yüklerken <code class="inline">/ext</code> klasörüzdeki eklentileri silmemeye dikkat edin.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Şimdi tarayıcınız ile kurulum dizinine giderek güncelleme işlemini başlatın</a>.</strong></li>
+			<li>Veritabanını güncellemek için adımları izleyin ve bu işlemin tamamlanmasına izin verin.</li>
+			<li>FTP ya da SSH programı yardımıyla mesaj panosu kurulumunuzun ana dizininden <code class="inline">/install</code> klasörünü silin.<br><br></li>
+		</ol>
+		
+		<p>Artık tüm kullanıcılarınız ve mesajlarınızı içeren yeni bir güncel mesaj panonuz var. Ayrıca alttaki işlemleri yapmayı da unutmayın:</p>
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Dil dosyanızı güncelleyib</li>
+			<li>Stilinizi güncelleyin<br><br></li>
+		</ul>
+		
 		<h1>Otomatik Güncelleme Paketi ile kurulumunuz nasıl güncelleştirilir?</h1>
 
-		<p>Burada listelenen önerilen kurulum güncelleştirmesi sadece otomatik güncelleme paketi için geçerlidir. Ayrıca kurulumunuzu INSTALL.html belgesi içerisinde belirtilen metotları kullanarakta güncelleyebilirsiniz. Otomatik phpBB3 güncellemesi için takip edilecek adımlar:</p>
+		<p>Otomatik güncelleme paketi sadece kurulumunuzdaki çekirdek phpBB dosyalarında değişiklik yapıldığı durumlarda önerilir. Ayrıca kurulumunuzu INSTALL.html belgesi içerisinde belirtilen yöntemleri kullanarak da güncelleyebilirsiniz. Otomatik güncelleme paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
 
-		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve "Otomatik Güncelleme Paketi" arşivini indirin.<br /><br /></li>
-			<li>Arşivi açın.<br /><br /></li>
-			<li>phpBB ana dizininize (config.php dosyanızın bulunduğu dizin) sıkıştırılmamış "install" ve "vendor" klasörlerinin tamamını yükleyin.<br /><br /></li>
-		</ul>
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com indirme sayfasına</a> gidin ve "Otomatik Güncelleme Paketi" arşivini indirin.</li>
+			<li>Arşiv dosyasını açın.</li>
+			<li>phpBB ana dizininize (config.php dosyanızın bulunduğu dizin) sıkıştırılmamış "install" ve "vendor" klasörlerinin tamamını yükleyin.<br><br></li>
+		</ol>
 
-		<p>Mesaj panonuz, şu anda yüklediğiniz mevcut install klasörünün yükleme işlemi sırasında ve işlem bittikten sonra normal kullanıcılar için çevrimdışı olacaktır.<br /><br />
+		<p>Mesaj panonuz, install klasörünün yükleme işlemi sırasında ve işlem bittikten sonra normal kullanıcılar için çevrimdışı olacaktır.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Şimdi install klasörüne tarayıcınız ile giderek güncelleme işlemine başlayın</a>.</strong><br />
 		<br />
 		Güncelleme işlemi sırasında size rehberlik edilecektir. Güncelleme tamamlandığında ise bildiri alacaksınız.

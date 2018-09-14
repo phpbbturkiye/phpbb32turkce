@@ -110,13 +110,16 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Misafir arama flood aralığı',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Misafirlerin aramaları arasında beklemesi gereken saniye sayısı. Eğer bir misafir arama yaparsa diğer tüm misafirler zaman aralığı dolana kadar bekleyecektir.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		1	=> 'Tüm mesajlar şimdi %2$d mesaj id numarasına kadar indekslendi, bu adımda %1$d mesaj indekslendi.<br />',
+		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar indekslendi, bu adımda %1$d mesaj indekslendi.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		1	=> 'Şu anki indekslemenin değeri her saniyede %1$.1f mesaj.<br />İndeksleme işlemi devam ediyor…',
+		1	=> 'Geçerli indeksleme hızı saniyede yaklaşık %1$.1f mesaj.<br />İndeksleme işlemi devam ediyor…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar arama indeksinden kaldırıldı.<br />Silme işlemi devam ediyor…',
+		1	=> 'Tüm mesajlar %2$d mesaj id numarasına kadar arama indeksinden kaldırıldı, bu adımda %1$d mesaj kaldırıldı.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		1	=> 'Geçerli silme hızı saniyede yaklaşık %1$.1f mesaj.<br />Silme işlemi devam ediyor…',		
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Pano veritabanındaki tüm mesajlar başarıyla indekslendi',
 	'SEARCH_INDEX_REMOVED'					=> 'Bu uygulama için arama indeksi başarıyla silindi',

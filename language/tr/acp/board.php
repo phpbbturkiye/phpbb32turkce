@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Buradaki detaylar, kullanıcılarınızın tarayıcılarına gönderilen çerez verilerini tanımlar. Bir çok durumda çerez verileri için burada belirtilmiş varsayılan değerler yeterli olacaktır. Buradaki değerleri dikkatli bir şekilde değiştirmezseniz, yanlış değerler kullanıcılarınızın girişini engelleyebilir. Eğer mesaj panonuza giriş yapmış kullanıcılar ile ilgili sorunlarınız varsa, <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Bilgi Tabanı - Hatalı çerez ayarlarını düzeltme</a> sayfasını ziyaret edin</b>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Buradaki detaylar, kullanıcılarınızın tarayıcılarına gönderilen çerez verilerini tanımlar. Bir çok durumda çerez verileri için burada belirtilmiş varsayılan değerler yeterli olacaktır. Buradaki değerleri dikkatli bir şekilde değiştirmezseniz, yanlış değerler kullanıcılarınızın girişini engelleyebilir. Eğer mesaj panonuza giriş yapmış kullanıcılar ile ilgili sorunlarınız varsa, <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Bilgi Tabanı - Hatalı çerez ayarlarını düzeltme</a></strong> sayfasını ziyaret edin.',
 
 	'COOKIE_DOMAIN'			=> 'Çerez domain adresi',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'Bir çok durumda çerez alan adı isteğe bağlıdır. Eğer emin değilseniz burayı boş bırakın.<br><br> Başka bir yazılımla entegre edilmiş bir mesaj panonuz varsa ya da birden fazla alan adına sahipseniz, bu durumda çerez alan adını belirlemek için takip eden yönergeleri yapmanız gereklidir. Eğer <i>example.com</i> ve <i>forums.example.com</i>, ya da bir ihtimal <i>forums.example.com</i> ve <i>blog.example.com</i> gibi bir alan adına sahipseniz, <i>example.com</i> gibi ortak alan adını bulana kadar alt alan adlarını kaldırın. Ortak alan adını belirlediyseniz ortak alan adının önüne bir nokta ekleyin ve .example.com (baştaki noktaya dikkat edin) olarak girin.',	
@@ -403,8 +403,10 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Okunan bir bildirimin otomatik olarak silinmesinden önce geçecek gün sayısı. Bildirimlerin hiç silinmemesi için bu değeri 0 olarak ayarlayın.',
 	'RECOMPILE_STYLES'			=> 'Bozulmuş stil bileşenlerini yeniden derle',
 	'RECOMPILE_STYLES_EXPLAIN' => 'Dosya sisteminde bulunan stil bileşenlerinin güncelliğini kontrol eder ve duruma göre yeniden derler',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Konu sayfalarında ÖM düğmesi iznini etkinleştir',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Eğer bu ayar etkinleştirilirse, yalnızca özel mesajları okuma izni olan kullanıcıların profillerinde özel mesaj düğmeleri gösterilecektir.',	
 	'YES_ANON_READ_MARKING'			=> 'Misafirler için başlık işaretlenmesini aç',
-	'YES_ANON_READ_MARKING_EXPLAIN'   => 'Misafirler için başlıkların ya da mesajların okunmuş/okunmamış durum bilgileri saklanacaktır. Eğer bu özellik kapalıysa, misafirler için mesajlar her zaman okunmuş olarak işaretlenecektir.',
+	'YES_ANON_READ_MARKING_EXPLAIN'   => 'Misafirler için başlıkların ya da mesajların okunmuş/okunmamış durum bilgileri saklanacaktır. Eğer bu özellik kapalıysa, misafirler için mesajlar her zaman okunmuş olarak işaretlenecektir.',	
 	'YES_BIRTHDAYS'					=> 'Doğum günü listelemeyi aç',
  	'YES_BIRTHDAYS_EXPLAIN'			=> 'Eğer doğum günü listelemesi aktif değilse hiç bir yerde gösterilmeyecektir. Doğum günü özelliğini kullanmak içinde bu ayarı aktif etmeniz gerekmektedir.',
 	'YES_JUMPBOX'					=> 'Hızlı geçiş kutusunun gösterilmesini aç',
@@ -584,7 +586,7 @@ $lang = array_merge($lang, array(
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP sunucu portu',
 	'SMTP_PORT_EXPLAIN'				=> 'Sadece SMTP sunucunuzun farklı bir kullandığını biliyorsanız değiştiriniz.',
-	'SMTP_SERVER'					=> 'SMTP sunucu adresi',
+	'SMTP_SERVER'					=> 'SMTP sunucu adresi ve protokolü',
 	'SMTP_SERVER_EXPLAIN'			=> 'Not: Sunucunuzun kullandığı protokolü sağlamalısınız. Eğer SSL kullanıyorsanız, bu adres "ssl://sizin.mailsunucunuz.com" olmalıdır.',
 	'SMTP_SETTINGS'					=> 'SMTP ayarları',
 	'SMTP_USERNAME'					=> 'SMTP kullanıcı adı',
