@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Hesabınız zaten aktif edildi.',
 	'ACCOUNT_DEACTIVATED'			=> 'Hesabınız manuel olarak deaktif edildi ve sadece bir yönetici tarafından yeniden aktif edilebilir.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Hesabınız henüz aktif edilmedi.',
 	'ACP'							=> 'Yönetim Kontrol Paneli',
 	'ACP_SHORT'						=> 'YKP',
 	'ACTIVE'				=> 'aktif',

@@ -111,8 +111,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Resim bağlantısı boyutları',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Resim dosya eki belirtilen miktardan büyükse satır içinde bir metin bağlantısı olarak gösterilecektir. Bu eylemi kapatmak için, değeri 0 piksel - 0 piksel olarak ayarlayın.',
-	'IMAGICK_PATH'				=> 'ImageMagick yolu',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Imagemagick dönüştürme uygulamasının tam yolu, örnek <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Her bir mesajdaki en fazla dosya eki sayısı',
 	'MAX_ATTACHMENTS_PM'			=> 'Her bir özel mesajdaki en fazla dosya eki sayısı',
@@ -135,7 +133,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Belirli bir uzantı grubu yok',
 	'NO_FILE_CAT'				=> 'Yok',
 	'NO_IMAGE'					=> 'Resim yok',
-	'NO_THUMBNAIL_SUPPORT'		=> 'Resim önizleme desteği kapatıldı. Doğru şekilde çalışması için GD uzantısı mevcut olmalı ya da imagemagick kurulmuş olmalıdır. Her ikisi de bulunamadı.',
 	'NO_UPLOAD_DIR'				=> 'Belirlediğiniz yükleme klasörü yok.',
 	'NO_WRITE_UPLOAD'			=> 'Belirlediğiniz yükleme klasörü üzerine yazılamıyor. Lütfen sunucunuza, ftp yoluyla bağlanarak yazma iznini dosyaya veriniz.',
 
@@ -147,7 +144,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> '<em>İzin verilmeyen</em> IP/sunucu adlarını kaldır ya da hariç tutulanlardan çıkar',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Dosya istatistiklerini yeniden senkronize etmek istediğinize emin misiniz?',
 
-	'SEARCH_IMAGICK'				=> 'ImageMagick için ara',
 	'SECURE_ALLOW_DENY'				=> 'İzinli/Yasaklı listesi',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Güvenli indirmeler açık olduğu zaman İzinli/Yasaklı listesinde bir <strong>beyaz liste</strong> (İzinli) veya bir <strong>kara liste</strong> (Yasaklı) için varsayılan eylemi değiştirin.',
 	'SECURE_DOWNLOADS'				=> 'Güvenli indirmeye izin ver',

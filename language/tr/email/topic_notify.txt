@@ -1,4 +1,5 @@
-Subject: Başlık Cevap Bildirimi - "{TOPIC_TITLE}"
+Subject: Başlık cevap bildirimi - "{TOPIC_TITLE}"
+List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 Merhaba {USERNAME},
 

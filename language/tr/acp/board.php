@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Buradan iletişim sayfasını etkinleştirip devre dışı bırakabilirsiniz, ayrıca iletişim sayfasında gösterilecek bir metin ekleyebilirsiniz.',
 
 	'CONTACT_US_ENABLE'				=> 'İletişim sayfasını etkinleştir',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Bu sayfa kullanıcıların mesaj panosu yöneticilerine e-posta göndermelerine olanak sağlar. Not: Aynı zamanda mesaj panosu genelinde e-posta gönderme seçeneği açık olmalıdır. Bu seçeneği Genel > İletişim Bağlantıları > E-posta ayarları bölümünden bulabilirsiniz.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Bu sayfa kullanıcıların mesaj panosu yöneticilerine e-posta göndermelerine olanak sağlar. Not: Aynı zamanda mesaj panosu genelinde e-posta gönderme seçeneği açık olmalıdır. Bu seçeneği Genel &gt; İletişim Bağlantıları &gt; E-posta ayarları bölümünde bulabilirsiniz.',
 
 	'CONTACT_US_INFO'				=> 'İletişim bilgileri',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'İletişim sayfasında gösterilecek mesaj',

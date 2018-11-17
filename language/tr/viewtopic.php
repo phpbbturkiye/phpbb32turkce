@@ -86,6 +86,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Bu başlıkta daha yeni okunmayan mesaj yok.',
 	'NO_VOTE_OPTION'		=> 'Oy vermek için bir seçenek belirlemelisiniz.',
 	'NO_VOTES'				=> 'Oy yok',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Başlıkları yazdırmak için yetkiniz yok.',
 
 	'POLL_ENDED_AT'			=> 'Anket %s tarihinde bitecek',
 	'POLL_RUN_TILL'			=> 'Anket %s tarihine kadar sürecek',

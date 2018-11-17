@@ -355,7 +355,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>Tam Paket ile kurulumunuz nasıl güncelleştirilir</h1>
+		<h1>Tam Paket ile kurulumunuz nasıl güncelleştirilir?</h1>
 
 		<p>Kurulumunuzu güncellemenin önerilen yolu Tam Paketi kullanmaktır. Eğer kurulumunuzdaki çekirdek phpBB dosyaları değiştirildiyse, bu değişiklikleri kaybetmemek için otomatik güncelleme paketini kullanmak isteyebilirsiniz. Ayrıca kurulumunuzu INSTALL.html belgesinde listelenen diğer yöntemleri kullanarak da güncelleyebilirsiniz. Tam paketi kullanarak phpBB3’ü güncellemek için adımlar:</p>
 
@@ -374,7 +374,7 @@ $lang = array_merge($lang, array(
 		
 		<p>Artık tüm kullanıcılarınız ve mesajlarınızı içeren yeni bir güncel mesaj panonuz var. Ayrıca alttaki işlemleri yapmayı da unutmayın:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Dil dosyanızı güncelleyib</li>
+			<li>Dil dosyanızı güncelleyin</li>
 			<li>Stilinizi güncelleyin<br><br></li>
 		</ul>
 		
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 		</ol>
 
 		<p>Mesaj panonuz, install klasörünün yükleme işlemi sırasında ve işlem bittikten sonra normal kullanıcılar için çevrimdışı olacaktır.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Şimdi install klasörüne tarayıcınız ile giderek güncelleme işlemine başlayın</a>.</strong><br />
+		<strong><a href="%1$s" title="%1$s">Şimdi tarayıcınız ile kurulum dizinine giderek güncelleme işlemini başlatın</a>.</strong><br />
 		<br />
 		Güncelleme işlemi sırasında size rehberlik edilecektir. Güncelleme tamamlandığında ise bildiri alacaksınız.
 		</p>
