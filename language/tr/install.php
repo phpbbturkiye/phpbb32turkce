@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Bu bölümdeki tüm alanları doldurmalısınız.',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'Kurulumcu bir zaman aşımı tespi etti',
+	'TIMEOUT_DETECTED_TITLE'	=> 'Kurulumcu bir zaman aşımı tespit etti',
 	'TIMEOUT_DETECTED_MESSAGE'	=> 'Kurulumcu bir zaman aşımı tespit etti. Sayfayı yenileyebilirsiniz, ancak bu işlem veri bozulmasına yol açabilir. Zaman aşımı ayarlarınızı artırmanızı ya da Komut Satırı Arabirimi (CLI) kullanmayı denemenizi öneririz.',
 ));
 
