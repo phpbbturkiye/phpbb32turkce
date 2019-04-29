@@ -110,6 +110,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'Yeni kullanıcılar gruba başarıyla eklendi.',
 	'GROUP_USERS_EXIST'				=> 'Seçilen kullanıcılar zaten üyedir.',
 	'GROUP_USERS_REMOVE'			=> 'Kullanıcılar gruptan silindi ve yeni varsayılan ayarlar başarıyla yapıldı',
+	'GROUP_USERS_INVALID'			=> 'Bu kullanıcı adları mevcut olmadığından gruba hiçbir kullanıcı eklenmedi: %s',	
 	
 	'LEGEND_EXPLAIN'				=> 'Bunlar grup yetkililerinde gösterilen gruplardır:',
 	'LEGEND_SETTINGS'				=> 'Yetkililer ayarları',

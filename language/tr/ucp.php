@@ -268,6 +268,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Önemli duyurular',
 	'INVALID_USER_BIRTHDAY'         => 'Girilen doğum günü geçerli bir tarih değil.',
 	'INVALID_CHARS_USERNAME'	=> 'Kullanıcı adı yasaklı karakterler içeriyor.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Kullanıcı adı yasaklı karakterler içeriyor (Emoji).',	
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Şifre, istenilen karakterleri içermiyor.',
 	'ITEMS_REQUIRED'			=> '* ögeleri ile işaretlenen profil alanları gerekli tutulduğu için bunları doldurmak zorundasınız.',
 
@@ -298,6 +299,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Mesaj başarıyla düzenlendi.',
 	'MESSAGE_HISTORY'				=> 'Mesaj geçmişi',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Bu mesaj, yazarı tarafından silindi.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Bildirilen mesaj',	
 	'MESSAGE_SENT_ON'			=> 'tarih',
 	'MESSAGE_STORED'			=> 'Bu mesaj başarıyla gönderildi.',
 	'MESSAGE_TO'				=> 'Kime',

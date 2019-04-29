@@ -764,6 +764,9 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Başlık incelemesi',
 	'TOPIC_TITLE'		=> 'Konu Başlığı',
 	'TOPIC_UNAPPROVED'	=> 'Bu başlık onaylanmadı.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Başlıklar onay bekliyor',
+	),	
 	'TOPIC_DELETED'		=> 'Bu başlık silindi.',
 	'TOTAL_ATTACHMENTS'	=> 'Dosya eki(ekleri)',
 	'TOTAL_LOGS'		=> array(

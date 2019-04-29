@@ -38,14 +38,15 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Buradan tüm phpBB ile ilgili verileri yedekleyebilirsiniz. Veritabanını doğrudan bilgisayarınıza indirebilir ya da <samp>store/</samp> klasörünüze kaydederek arşivleyebilirsiniz. Sunucu yapılandırmanızın elverdiği ölçüde bu dosyaları çeşitli sıkıştırma biçimleriyle sıkıştırabilirsiniz.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Burada phpBB ile ilgili tüm verilerinizi yedekleyebilirsiniz. Ortaya çıkan arşiv dosyası <samp>store/</samp> klasörünüzde saklanacaktır. Sunucu yapılandırmanıza bağlı olarak, dosyayı çeşitli biçimlerde sıkıştırabilirsiniz.',	
 	'ACP_RESTORE_EXPLAIN'	=> 'Buradaki işlemle dosya içine kaydedilen phpBB tablolarının tam olarak geri yükleme işlemi gerçekleştirilir. Geri Yükleme işlemini iki şekilde yapabilirsiniz; buradaki form sayfası yoluyla yükleyebilir ya da manuel olarak sunucu üzerindeki yapı üzerinden yükleyebilirsiniz. Eğer sunucu sisteminiz izin verirse gzip veya bzip2 sıkıştırılmış yazı dosyaları otomatik olarak açılacaktır. <strong>DİKKAT</strong> Bu işlem var olan verilerin üzerine kayıt eder. Geri yükleme işlemi zaman alabilir, bu işlem bitene kadar sayfayı terk etmeyiniz. Yedekler <samp>store/</samp> klasörünün içerisine saklanacaktır ve phpBB’nin varsayılan yedekleme fonksiyonu tarafından oluşturulacaktır. Yedekler geri yüklenirken sistemin yapısı tarafından oluşturulmayabilir veya çalışmayabilir.',
 	
-	'BACKUP_DELETE'		=> 'Yedekleme dosyası başarıyla silindi',
-	'BACKUP_INVALID'	=> 'Yedekleme için seçilen dosya geçersiz.',
-	'BACKUP_OPTIONS'	=> 'Yedekleme ayarları',
-	'BACKUP_SUCCESS'	=> 'Yedekleme dosyası başarıyla oluşturuldu',
-	'BACKUP_TYPE'		=> 'Yedekleme tipi',
+	'BACKUP_DELETE'			=> 'Yedekleme dosyası başarıyla silindi.',
+	'BACKUP_INVALID'		=> 'Yedekleme için seçilen dosya geçersiz.',
+	'BACKUP_NOT_SUPPORTED'	=> 'Seçilen yedekleme desteklenmiyor',
+	'BACKUP_OPTIONS'		=> 'Yedekleme ayarları',
+	'BACKUP_SUCCESS'		=> 'Yedekleme dosyası başarıyla oluşturuldu.',
+	'BACKUP_TYPE'			=> 'Yedekleme tipi',
 	
 	'DATABASE' 			=> 'Veritabanı araçları',
 	'DATA_ONLY'			=> 'Sadece veri',

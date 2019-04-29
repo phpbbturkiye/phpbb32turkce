@@ -1,4 +1,4 @@
-Subject: Özel Mesaj bildirisi - "{TOPIC_TITLE}"
+Subject: Özel Mesaj bildirisi - "{SUBJECT}"
 
 Merhaba {USERNAME},
 

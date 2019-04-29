@@ -323,6 +323,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'      		=> 'Toplam boyut',
 
 	'UCP'					=> 'Kullanıcı Kontrol Paneli',
+	'URL_INVALID'			=> '“%1$s” ayarı için belirtilen URL adresi geçersiz.',	
 	'USERNAMES_EXPLAIN'		=> 'Her kullanıcı adını ayrı bir satıra yerleştirin.',
 	'USER_CONTROL_PANEL'	=> 'Kullanıcı Kontrol Paneli',
 

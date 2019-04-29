@@ -141,6 +141,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Buradan taslak seçerek istediğiniz yazıma devam edebilirsiniz. Şu anki mesajınız iptal olacaktır, şu anki tüm mesaj içeriği silinecektir. Kullanıcı Kontrol Panelinizden taslakları görüntüleyebilir, düzenleyebilir ve silebilirsiniz.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Bu forumdaki başlıkları darbelemek için giriş yapmalısınız.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Bu forumdaki mesajları silmek için giriş yapmalısınız.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Bu forumdaki mesajları yumuşak-silme yapmak için giriş yapmalısınız.',	
 	'LOGIN_EXPLAIN_POST'		=> 'Bu foruma mesaj göndermek için giriş yapmalısınız.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Bu forumdaki mesajları alıntı yapmak için giriş yapmalısınız.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Bu forumdaki başlıklara cevap vermek için giriş yapmalısınız.',
