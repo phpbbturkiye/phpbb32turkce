@@ -98,6 +98,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Forum bağlantılarına kaç kere tıklandığını takip etmenizi sağlayacak kayıtlardır.',
 	'FORUM_NAME'						=> 'Forum adı',
 	'FORUM_NAME_EMPTY'					=> 'Bu forum için bir isim girmelisiniz.',
+	'FORUM_NAME_EMOJI'					=> 'Girdiğiniz forum adı geçersiz.<br>Girdiğiniz forum adı aşağıdaki desteklenmeyen karakterleri içeriyor:<br>%s',	
 	'FORUM_PARENT'						=> 'Ana forum',
 	'FORUM_PASSWORD'					=> 'Forum şifresi',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Forum şifresini onayla',

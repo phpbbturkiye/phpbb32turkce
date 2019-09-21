@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Anket oluştur',
 	'ADD_POLL_EXPLAIN'			=> 'Eğer başlığa bir anket eklemek istemiyorsanız bu alanları boş bırakın.',
 	'ALREADY_DELETED'			=> 'Üzgünüz fakat bu mesaj zaten silindi.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'Dosya eki yorumu yasaklı karakterler içeriyor (Emoji).',	
 	'ATTACH_DISK_FULL'			=> 'Bu dosya ekini gönderebilmek için yeterli boş disk alanı yok.',
 	'ATTACH_QUOTA_REACHED'		=> 'Üzgünüz, mesaj panosu dosya eki kotası aşıldı.',
 	'ATTACH_SIG'				=> 'İmza ekle (imzalar KKP yoluyla değiştirilebilir)',

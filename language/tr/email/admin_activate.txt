@@ -7,7 +7,7 @@ Merhaba,
 Bu bağlantıyı kullanarak kullanıcının profilini görüntüleyin:
 {U_USER_DETAILS}
 
-Bu bağlantıyı kullanarak hesabı aktifleştirin:
+Bu bağlantıya tıklayarak hesabı hemen aktif hale getirebilirsiniz:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

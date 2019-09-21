@@ -81,8 +81,8 @@ $lang = array_merge($lang, array(
 	'ACL_U_SIG'			=> 'İmza kullanabilir',
 
 	'ACL_U_SENDPM'		=> 'Özel mesajlar gönderebilir',
-	'ACL_U_MASSPM'		=> 'Çoklu kullanıcılara mesajlar gönderebilir',
-	'ACL_U_MASSPM_GROUP'=> 'Gruplara mesajlar gönderebilir',
+	'ACL_U_MASSPM'		=> 'Çoklu kullanıcılara özel mesajlar gönderebilir',
+	'ACL_U_MASSPM_GROUP'=> 'Gruplara özel mesajlar gönderebilir',
 	'ACL_U_READPM'		=> 'Özel mesajları okuyabilir',
 	'ACL_U_PM_EDIT'		=> 'Kendi özel mesajlarını düzenleyebilir',
 	'ACL_U_PM_DELETE'	=> 'Kendi klasöründen özel mesajları silebilir',

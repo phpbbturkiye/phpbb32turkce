@@ -110,8 +110,8 @@ $lang = array_merge($lang, array(
 	'FIELD_VALIDATION'			=> 'Alan doğrulaması',
 	'FIRST_OPTION'				=> 'İlk seçenek',
 
-	'HIDE_PROFILE_FIELD'			=> 'Gizli profil alanı',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Kullanıcının kendisi dışındaki tüm diğer kullanıcılardan profil alanı gizlenir, yöneticiler ve moderatörler bu alanı görebilirler. Eğer kullanıcı kontrol panelindeki Göster seçeneği kapalıysa, kullanıcı bu alanı göremeyecek, değiştiremeyecektir ve alan sadece yöneticiler tarafından değiştirilebilecektir.',
+	'HIDE_PROFILE_FIELD'			=> 'Profil alanını gizle',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Yöneticiler ve moderatörler dışında bu alanı görebilen tüm kullanıcılardan profil alanı gizlenir. Eğer kullanıcı kontrol panelindeki Göster seçeneği kapalıysa, kullanıcı bu alanı göremeyecek, değiştiremeyecektir ve alan sadece yöneticiler tarafından değiştirilebilecektir.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Alan adı sadece a-z arası, tümü küçük harf ve _ işaretini içerebilir',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Alan tanımı sadece 17 karakter uzunluğunda olabilir',
