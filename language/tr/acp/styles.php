@@ -16,12 +16,12 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE 
@@ -88,4 +88,4 @@ $lang = array_merge($lang, [
 	'UNINSTALL_DEFAULT'							=> 'Varsayılan stili kaldıramazsınız.',	
 
 	'BROWSE_STYLES_DATABASE'					=> 'Stil veritabanına göz at',
-));
+]);
