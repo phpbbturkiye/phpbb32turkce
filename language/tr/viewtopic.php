@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Kod',
 
 	'DELETE_TOPIC'			=> 'Başlığı sil',
-	'DELETED_INFORMATION'	=> '%1$s tarafından %2$s tarihinde sildi',
+	'DELETED_INFORMATION'	=> '%1$s tarafından %2$s tarihinde silindi',
 	'DISAPPROVE'					=> 'Onaylama',
 	'DOWNLOAD_NOTICE'		=> 'Bu mesaja eklenen dosyaları görüntülemek için gerekli izinlere sahip değilsiniz.',
 
