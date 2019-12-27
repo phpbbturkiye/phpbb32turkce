@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Bir eklenti mesaj panosundan tamamen nasıl silinir?',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Eklentiyi devre dışı dırakın</li>
+			<li>Eklentiyi devre dışı bırakın</li>
 			<li>Eklenti verilerini silin</li>
 			<li>Eklenti dosyalarını dosya sisteminden silin</li>
 		</ol>',
