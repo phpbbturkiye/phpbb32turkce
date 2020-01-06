@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Taslakları kaydedebilir',
 	'ACL_U_CHGCENSORS'	=> 'Kelime sansürlerini kapatabilir',
 	'ACL_U_SIG'			=> 'İmza kullanabilir',
+	'ACL_U_EMOJI'		=> 'Başlık konusunda emoji ve zengin metin kullanabilir',	
 
 	'ACL_U_SENDPM'		=> 'Özel mesajlar gönderebilir',
 	'ACL_U_MASSPM'		=> 'Çoklu kullanıcılara özel mesajlar gönderebilir',
