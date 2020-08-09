@@ -49,8 +49,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'En son %1$s tarafından %2$s tarihinde darbelendi.',
 	'BUMP_TOPIC'			=> 'Başlığı darbele',
 
-	'CODE'					=> 'Kod',
-
 	'DELETE_TOPIC'			=> 'Başlığı sil',
 	'DELETED_INFORMATION'	=> '%1$s tarafından %2$s tarihinde silindi',
 	'DISAPPROVE'					=> 'Onaylama',
@@ -96,7 +94,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Hızlı-yönetim araçları',
 	'QUICKREPLY'			=> 'Hızlı Cevap',
-	'QUOTE'					=> 'Alıntı',
 
 	'REPLY_TO_TOPIC'		=> 'Başlığa cevap ver',
 	'RESTORE'				=> 'Geri getir',

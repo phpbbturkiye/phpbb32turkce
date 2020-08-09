@@ -179,7 +179,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Seçilenin rütbesini düşür',
 	'DISABLE_CENSORS'			=> 'Kelime sansürlemeyi aç',
 	'DISPLAY_GALLERY'			=> 'Galeriyi göster',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta alan adı’nın MX kaydı geçerli değil.',
 	'DOWNLOADS'					=> 'İndirmeler',
 	'DRAFTS_DELETED'			=> 'Seçilen tüm taslaklar başarıyla silindi.',
 	'DRAFTS_EXPLAIN'			=> 'Buradan kayıtlı taslaklarınızı görüntüleyebilir, düzenleyebilir ve silebilirsiniz.',

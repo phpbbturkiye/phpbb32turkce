@@ -508,13 +508,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Yöneticiler eklendi ya da düzenlendi</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Global Moderatörler eklendi ya da düzenlendi</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Kullanıcıların forum erişimleri eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Kullanıcıların forum moderatör erişimleri eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Grupların forum erişimleri eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Grupların forum moderatör erişimleri eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Kullanıcıların forum erişimleri eklendi ya da düzenlendi</strong> şuraya %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Kullanıcıların forum moderatör erişimleri eklendi ya da düzenlendi</strong> şuraya %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Grupların forum erişimleri eklendi ya da düzenlendi</strong> şuraya %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Grupların forum moderatör erişimleri eklendi ya da düzenlendi</strong> şuraya %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderatörler eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forum izinleri eklendi ya da düzenlendi</strong> değişen yeri %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderatörler eklendi ya da düzenlendi</strong> şurası için %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forum izinleri eklendi ya da düzenlendi</strong> şurası için %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Yöneticiler silindi</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Global Moderatörler silindi</strong><br />» %s',

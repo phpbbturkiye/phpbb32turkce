@@ -165,6 +165,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Dar görünüm',
 	'CLOSE_WINDOW'			=> 'Pencereyi kapat',
+	'CODE'					=> 'Kod',	
 	'COLOUR_SWATCH'			=> 'Renk kuşağı',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -202,6 +203,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Eskiden itibaren mesajları göster',
 	'DISPLAY_POSTS'			=> 'Eskiden itibaren mesajları göster',
 	'DISPLAY_TOPICS'		=> 'Eskiden itibaren başlıkları göster',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta etki alanında geçerli bir MX kaydı yok.',
 	'DOWNLOADED'			=> 'İndirilme',
 	'DOWNLOADING_FILE'		=> 'Dosya indiriliyor',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -592,6 +594,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_ACTION'	=> 'Mesaj onay bekliyor:',
 	'POST_UNAPPROVED'		=> 'Bu mesaj onaylandı.',
 	'POWERED_BY'			=> 'Powered by %s',
+
+	'QUOTE'					=> 'Alıntı',
+	
 	'PREVIEW'			=> 'Önizleme',
 	'PREVIOUS'            => 'Önceki',      // Used in pagination
 	'PREVIOUS_STEP'         => 'Önceki',

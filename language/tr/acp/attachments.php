@@ -111,6 +111,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Resim bağlantısı boyutları',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Resim dosya eki belirtilen miktardan büyükse satır içinde bir metin bağlantısı olarak gösterilecektir. Bu eylemi kapatmak için, değeri 0 piksel - 0 piksel olarak ayarlayın.',
+	'IMAGE_QUALITY'				=> 'Yüklenen resim dosya eklerinin kalitesi (sadece JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> '50% (küçük dosya boyutu) ve 90% (yüksek kalite) arası bir değer belirtin. 90% değerinden yüksek kalite dosya boyutunu arttırır ve devre dışı bırakılır. Bu ayar sadece en yüksek resim boyutları 0 piksel x 0 piksel dışında bir değere ayarlanmışsa geçerlidir.',
+	'IMAGE_STRIP_METADATA'		=> 'Resim meta verisi şeridi (sadece JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Exif meta verilerini şeritler; ör. yazar adı, GPS koordinatları ve kamera detayları gibi... Bu ayar sadece en yüksek resim boyutları 0 piksel x 0 piksel dışında bir değere ayarlanmışsa geçerlidir.',	
 
 	'MAX_ATTACHMENTS'				=> 'Her bir mesajdaki en fazla dosya eki sayısı',
 	'MAX_ATTACHMENTS_PM'			=> 'Her bir özel mesajdaki en fazla dosya eki sayısı',
@@ -129,6 +133,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Tanımlanmadı',
 	'NO_ATTACHMENTS'			=> 'Bu dönem için hiç bir dosya eki bulunamadı.',	
 	'NO_EXT_GROUP'				=> 'Yok',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Özel mesajlar için hiç bir <a href="%s">izin verilen uzantı grubu</a> yok.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Mesajlar için hiç bir <a href="%s">izin verilen uzantı grubu</a> yok.',	
 	'NO_EXT_GROUP_NAME'			=> 'Grup ismi girilmedi',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Belirli bir uzantı grubu yok',
 	'NO_FILE_CAT'				=> 'Yok',

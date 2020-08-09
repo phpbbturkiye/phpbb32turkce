@@ -35,6 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu önbelleğinin Yönetim Kontrol Paneli aracılığıyla temizlenmesi gerekir.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Verimli bir önbellek olması için yapılandırma seçeneği değişikliklerinin çok sık olmasını isterseniz bu seçeneği ayarlayın.',
 	'CLI_CONFIG_CURRENT'				=> 'Şu anki yapılandırma değeri, belirli boolean değerleri için 0 ve 1 kullanın',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s yapılandırması başarıyla silindi.',
