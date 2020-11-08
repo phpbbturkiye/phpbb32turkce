@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'INVALID_FEED_ATTACHMENTS'	=> 'Seçilen besleme, geçersiz kısıtlamalar içeren dosya eklerini getirmeye çalıştı.',
 	'INVALID_PLURAL_RULE'		=> 'Seçilen çoğul kuralı geçersiz. Geçerli değerler 0 ve 15 sayıları arasındaki tamsayılardır.',
 	'IP'					=> 'IP',
-	'IP_BLACKLISTED'			=> 'IP adresiniz %1$s engellendi çünkü kara listede. Detaylar için lütfen bakınız: <a href="%2$s">%2$s</a>.',
+	'IP_BLACKLISTED'			=> '%1$s numaralı IP adresiniz kara listede olduğu için engellendi. Detaylar için lütfen şuraya bakın: <a href="%2$s">%2$s</a>.',
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Kayıt',

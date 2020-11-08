@@ -1,9 +1,12 @@
-#### Bu dosya phpBB Türkiye "http://www.phpbbturkey.com/" sitesinden indirilmiştir ####
+#### Bu dosya phpBB Türkiye "https://www.phpbbturkey.com/" sitesinden indirilmiştir ####
 ####
 #### phpBB3 Türkçe Dil Paketi ####
 ####
 Sürüm Geçmişi:
 -------------------------------------------------------
+08-11-2020 v1.2.11
+- Dil dosyaları phpBB 3.2.11 sürümü için yayınlandı.
+
 08-08-2020 v1.2.10
 - Dil dosyaları phpBB 3.2.10 sürümü için yayınlandı.
 
